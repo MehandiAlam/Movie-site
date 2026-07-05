@@ -1,0 +1,43 @@
+.home {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.search-form {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #222;
+  color: white;
+  border: 1px solid #333;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+.search-button {
+  padding: 1rem 1.5rem;
+  background: #e50914;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.search-button:hover {
+  background: #ff1f2d;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+}

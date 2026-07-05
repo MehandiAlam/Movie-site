@@ -1,0 +1,25 @@
+.movie-details {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.movie-details h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.movie-details p {
+  margin-bottom: 1rem;
+  color: #ccc;
+  line-height: 1.7;
+}
+
+.movie-details iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 2rem;
+}
